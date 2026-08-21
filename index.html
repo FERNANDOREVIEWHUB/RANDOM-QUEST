@@ -295,6 +295,669 @@ window.addEventListener("load",()=>{
 
 const questions = [
 /* Uploaded LET review material — source-based */
+{
+  cat: "Science",
+  q: "He demonstrated that galaxies farther away from us are receding faster than those nearby. The idea of an expanding universe is a key underpinning of the Big Bang Theory. Who was he?",
+  o: ["Edwin Hubble", "Gregor Mendel", "Galileo Galilei", "George Dantzig"],
+  a: 0,
+  r: "Edwin Hubble demonstrated that more distant galaxies are generally receding faster, providing evidence for an expanding universe."
+},
+
+{
+  cat: "Education",
+  q: "They may use punishments instead of discipline. Rather than teach a child how to make better choices, they are invested in making kids feel sorry for their mistakes. What parenting style is described?",
+  o: ["Authoritarian", "Authoritative", "Permissive", "Negligent"],
+  a: 0,
+  r: "Authoritarian parenting is characterized by strict control and punishment rather than encouraging independent decision-making."
+},
+
+{
+  cat: "Science",
+  q: "Which kind of disorder or disease can cause a person to lose memory of recent and past events and experience confusion and errors in judgment?",
+  o: ["Alzheimer disease", "Schizophrenia", "Autoimmune disease", "Cerebral palsy"],
+  a: 0,
+  r: "Alzheimer disease is a progressive neurological disorder that can cause memory loss, confusion, and impaired judgment."
+},
+
+{
+  cat: "Science",
+  q: "Which of the following forms of energy travels in waves?",
+  o: ["Chemical energy", "Sound energy", "Mechanical energy", "Electrical energy"],
+  a: 1,
+  r: "Sound energy travels through a medium as mechanical waves."
+},
+
+{
+  cat: "Education",
+  q: "Which philosophy of education is John Dewey known for?",
+  o: ["Idealism", "Existentialism", "Progressivism", "Reconstructionism"],
+  a: 2,
+  r: "John Dewey was a major proponent of progressivism, emphasizing learning through experience and active participation."
+},
+
+{
+  cat: "Filipino",
+  q: "Uri ng bantas na ginagamit sa paghihiwalay ng magkakasunod na salita o parirala ay:",
+  o: ["Tuldok", "Kuwit", "Tuldukuwit", "Tutuldok"],
+  a: 1,
+  r: "Ang kuwit ay ginagamit upang paghiwalayin ang magkakasunod na salita o parirala."
+},
+
+{
+  cat: "Education",
+  q: "Teacher Sandara views her students as unique, free-choosing, and responsible individuals. All classroom activities revolve around this premise. What theory underlines this?",
+  o: ["Naturalism", "Essentialism", "Behaviorism", "Existentialism"],
+  a: 3,
+  r: "Existentialism emphasizes individual freedom, personal choice, responsibility, and the uniqueness of each learner."
+},
+
+{
+  cat: "Education",
+  q: "Among components in the instructional framework for learning strategies, which is demonstrated when a teacher works together with students on a skill or task and helps them figure out how to apply the skill?",
+  o: ["Independent practice", "Guided practice", "Consolidation", "Review"],
+  a: 1,
+  r: "Guided practice occurs when the teacher works with learners while they practice and apply a skill."
+},
+
+{
+  cat: "Education",
+  q: "When classes began, Teacher Dan asked students in pairs to interview and introduce each other to the class. How is this activity classified according to Edgar Dale's Cone of Experience?",
+  o: ["Purposeful experience", "Verbal symbols", "Dramatized experience", "Demonstration"],
+  a: 2,
+  r: "Introducing and portraying another person through an activity is classified as a dramatized experience."
+},
+
+{
+  cat: "Science",
+  q: "What are the small hair-like structures that serve a sensory function in eukaryotic cells?",
+  o: ["Actin filaments", "Cilia", "Plasma membrane", "Centromere"],
+  a: 1,
+  r: "Cilia are small hair-like structures that can perform sensory and movement-related functions."
+},
+
+{
+  cat: "Science",
+  q: "Penicillin was discovered by:",
+  o: ["Galileo Galilei", "Gregor Mendel", "Alexander Fleming", "Charles Darwin"],
+  a: 2,
+  r: "Alexander Fleming discovered penicillin in 1928."
+},
+
+{
+  cat: "Arts",
+  q: "It is one-dimensional and can vary in width, direction, and length.",
+  o: ["Shape", "Forms", "Space", "Line"],
+  a: 3,
+  r: "A line is a one-dimensional element of art that can vary in width, direction, and length."
+},
+
+{
+  cat: "Philippine History",
+  q: "Sino ang unang bumuo ng titik ng ating pambansang awit noong panahon ng himagsikan?",
+  o: ["Andres Bonifacio", "Graciano Lopez Jaena", "Marcelo H. del Pilar", "Jose Palma"],
+  a: 3,
+  r: "Jose Palma wrote the poem Filipinas, whose Spanish lyrics were later adapted as the lyrics of the Philippine national anthem."
+},
+
+{
+  cat: "Philippine History",
+  q: "After the execution, Rizal's corpse was buried with the greatest secrecy at Paco Cemetery. Who patiently searched the cemeteries in Manila to find his body?",
+  o: ["His brother, Paciano", "His mother, Teodora", "His sister, Narcisa", "His friend, Maximo Viola"],
+  a: 2,
+  r: "Narcisa Rizal searched for her brother's remains and eventually located his burial place at Paco Cemetery."
+},
+
+{
+  cat: "Philippine History",
+  q: "Who was the second editor of La Solidaridad with the pen name Dolores Manapat?",
+  o: ["Mariano Ponce", "Marcelo H. del Pilar", "Graciano Lopez Jaena", "Jose Rizal"],
+  a: 1,
+  r: "Marcelo H. del Pilar became the second editor of La Solidaridad and used the pen name Dolores Manapat."
+},
+
+{
+  cat: "Literature",
+  q: "What is the pen name of William Sydney Porter, whose works include The Four Million, Cabbages and Kings, and The Last Leaf?",
+  o: ["Leo Tolstoy", "James Joyce", "Oscar Wilde", "O. Henry"],
+  a: 3,
+  r: "William Sydney Porter wrote under the pen name O. Henry."
+},
+
+{
+  cat: "Literature",
+  q: "The epitome of the traditional Filipino woman—meek, submissive, and obedient—is:",
+  o: ["Maria Clara", "Sisa", "Donya Victoria", "Tiya Isabel"],
+  a: 0,
+  r: "Maria Clara is traditionally portrayed as the idealized, modest, meek, and obedient Filipino woman."
+},
+
+{
+  cat: "Literature",
+  q: "Which contributes to balance in sexuality in male and female?",
+  o: ["Myelin sheath", "Blood vessels", "Hormones", "Chromosomes"],
+  a: 2,
+  r: "Hormones play major roles in regulating sexual development and reproductive functions."
+},
+
+{
+  cat: "Education",
+  q: "What cognitive process is required in writing a personality profile of a fellow classmate?",
+  o: ["Creating", "Applying", "Recalling", "Analyzing"],
+  a: 3,
+  r: "Writing a personality profile requires examining and breaking down information about the person, which involves analysis."
+},
+
+{
+  cat: "Science",
+  q: "All these are beneficial effects of scientific knowledge EXCEPT:",
+  o: ["Solution to practical problems", "Making informed decisions", "Development of new technology", "Pursuance of political agenda"],
+  a: 3,
+  r: "Pursuing a political agenda is not inherently a beneficial effect of scientific knowledge."
+},
+
+{
+  cat: "Science",
+  q: "Medicine is benefited by scientific development of ____.",
+  o: ["Access to information", "Information dissemination", "Control of diseases", "Research capability"],
+  a: 2,
+  r: "Scientific development has greatly contributed to the prevention, diagnosis, and control of diseases."
+},
+
+{
+  cat: "Science",
+  q: "Scientists' values and beliefs are influenced by the customs and traditions of _______.",
+  o: ["Association", "Society", "Family", "Relatives"],
+  a: 1,
+  r: "Scientists, like other people, are influenced by the customs, traditions, and values of the society in which they live."
+},
+
+{
+  cat: "Science",
+  q: "All of the following contribute to environmental conservation EXCEPT:",
+  o: ["Carburetor exhaust", "Waste segregation", "Energy conservation", "Reforestation"],
+  a: 0,
+  r: "Carburetor exhaust contributes to air pollution rather than environmental conservation."
+},
+
+{
+  cat: "Science",
+  q: "Karylle is a carrier of cystic fibrosis, an autosomal recessive disorder. This means that she ______.",
+  o: ["Manifests all the signs and symptoms of the disease", "Has 2 defective genes", "Has 2 normal genes", "Has 1 defective gene only"],
+  a: 3,
+  r: "A carrier of an autosomal recessive disorder typically has one defective allele and one normal allele."
+},
+
+{
+  cat: "Science",
+  q: "It is the process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water.",
+  o: ["Surface tension", "Buoyant force", "Osmosis effect", "Photosynthesis"],
+  a: 3,
+  r: "Photosynthesis uses sunlight to convert carbon dioxide and water into chemical energy in the form of food."
+},
+
+{
+  cat: "Science",
+  q: "Who developed a vaccine for rabies?",
+  o: ["Gregor Mendel", "Isaac Newton", "Alexander Fleming", "Louis Pasteur"],
+  a: 3,
+  r: "Louis Pasteur developed the first successful rabies vaccine."
+},
+
+{
+  cat: "Science",
+  q: "Genetics is the study of heredity. Who is the father of Genetics?",
+  o: ["Carolus Linnaeus", "Charles Darwin", "Galileo Galilei", "Gregor Mendel"],
+  a: 3,
+  r: "Gregor Mendel is known as the father of genetics because of his experiments on pea plants and his laws of inheritance."
+},
+
+{
+  cat: "Science",
+  q: "Sound travels fastest in:",
+  o: ["Air", "Solid", "Vacuum", "Liquid"],
+  a: 1,
+  r: "Sound travels fastest through solids because their particles are closely packed together."
+},
+
+{
+  cat: "Science",
+  q: "An avocado tree planted beside a sampaguita plant in a garden demonstrates what kind of relationship?",
+  o: ["Co-optation", "Competition", "Parasitism", "Predation"],
+  a: 1,
+  r: "Plants growing together may compete for resources such as sunlight, water, nutrients, and space."
+},
+
+{
+  cat: "Science",
+  q: "A population of rabbits lives in a stable habitat, with no changes in the environment for a long time. How will genetic drift possibly affect this population?",
+  o: ["It will stimulate the appearance of new traits", "It will decrease the population of the rabbits", "It will promote the dominance of rabbits with superior traits", "It may decrease genetic variation"],
+  a: 3,
+  r: "Genetic drift can randomly change allele frequencies and reduce genetic variation, especially in small populations."
+},
+
+{
+  cat: "Science",
+  q: "The measure of a system's energy that is unavoidable for doing useful work is:",
+  o: ["Entropy", "Convection", "Radiation", "Conservation"],
+  a: 0,
+  r: "Entropy is a measure associated with energy dispersal and the amount of energy unavailable for useful work."
+},
+
+{
+  cat: "Science",
+  q: "Solar panels are examples of utilizing alternative sources of energy, specifically:",
+  o: ["Wind", "Sunlight", "Waves", "Water"],
+  a: 1,
+  r: "Solar panels convert energy from sunlight into electrical energy."
+},
+
+{
+  cat: "Science",
+  q: "A human arm, a bat's wing, and a seal's flipper are examples of:",
+  o: ["Analogous organs", "Homologous organs", "Embryonic organs", "Vestigial organs"],
+  a: 1,
+  r: "These structures are homologous because they share a common evolutionary origin despite having different functions."
+},
+
+{
+  cat: "Filipino",
+  q: "Pakpak, gamugamo, dibdib, at paruparo ay mga halimbawa ng salitang _______.",
+  o: ["Payak", "Tambalan", "Inuulit", "Maylapi"],
+  a: 0,
+  r: "Ang mga salitang ito ay mga salitang payak dahil binubuo ang mga ito ng iisang salitang-ugat."
+},
+
+{
+  cat: "Education",
+  q: "Among the varied effects of technology in instruction, which relates to increasing the emotional impact of abstract concepts such as war, pollution, and poverty?",
+  o: ["Encouraging participation", "Allowing different interests", "Contributing to understanding", "Changing attitudes and feelings"],
+  a: 3,
+  r: "Technology can make abstract issues more vivid and emotionally meaningful, helping change learners' attitudes and feelings."
+},
+
+{
+  cat: "Education",
+  q: "What pattern of development enables parents to plan ahead for the development of a child?",
+  o: ["It is fixed", "It is predictable", "It is unknown", "It is diverse"],
+  a: 1,
+  r: "Development follows predictable patterns, allowing parents and educators to anticipate developmental milestones."
+},
+
+{
+  cat: "Literature",
+  q: "The last known poetic tribute beautifully penned by Rizal to his one true love, the Philippines, before he was put to death on December 30, 1896, was:",
+  o: ["El Amor Patrio", "Mi Ultimo Adios", "A La Juventud Filipina", "Noli Me Tangere"],
+  a: 1,
+  r: "Mi Ultimo Adios was Rizal's final poetic tribute to the Philippines, written shortly before his execution."
+},
+
+{
+  cat: "Psychology",
+  q: "What theory states that a person's behavior can be motivated by urges toward self-satisfaction?",
+  o: ["Association Theory", "Psychosocial Theory", "Psychoanalytic Theory", "Morality Theory"],
+  a: 2,
+  r: "Psychoanalytic theory, associated with Sigmund Freud, explains behavior partly through unconscious drives and urges."
+},
+
+{
+  cat: "Philippine History",
+  q: "Rizal used the pen name Laong-laan in 1882 when he wrote the nationalistic essay El Amor Patrio, which means:",
+  o: ["Touch Me Not", "The Reign of Greed", "My Last Farewell", "The Love of Country"],
+  a: 3,
+  r: "El Amor Patrio translates to 'The Love of Country.'"
+},
+
+{
+  cat: "Language",
+  q: "Among the components of language, which consists of vocabulary and how concepts are expressed through words?",
+  o: ["Phonology", "Pragmatics", "Semantics", "Grammar"],
+  a: 2,
+  r: "Semantics deals with meaning, including how concepts and ideas are expressed through words."
+},
+
+{
+  cat: "Social Science",
+  q: "\"Man is to be hailed as a social being.\" What does this line mean?",
+  o: ["He necessarily attends social events", "He must introduce himself in social gatherings", "He does not live only for himself", "He does not need other people"],
+  a: 2,
+  r: "Human beings are social beings who live and interact with others rather than existing solely for themselves."
+},
+
+{
+  cat: "Education",
+  q: "When a learner shows the ability to understand and appreciate the similarities and differences in the customs, values, and beliefs of one's culture, he or she is said to:",
+  o: ["Possess sociocultural awareness", "Possess global awareness", "Possess social literacy", "Possess multicultural literacy"],
+  a: 3,
+  r: "Multicultural literacy involves understanding and appreciating differences and similarities among cultures."
+},
+
+{
+  cat: "Literature",
+  q: "Which among the following is the main theme of El Filibusterismo?",
+  o: ["Ideal means of achieving social reform", "Rizal's hope for a revolution", "Curing the social cancer", "Abuses and indecency of friars"],
+  a: 3,
+  r: "El Filibusterismo strongly exposes abuses, corruption, and injustices associated with the colonial system and friars."
+},
+
+{
+  cat: "Education",
+  q: "What is the main responsibility of a teacher?",
+  o: ["Ask a challenging question", "Guide students in the learning process", "Share responsibility in counseling", "Inspire students with interesting lessons"],
+  a: 1,
+  r: "A teacher's primary responsibility is to facilitate and guide learners through the learning process."
+},
+
+{
+  cat: "Philippine History",
+  q: "After Philippine Independence was declared from the United States on July 4, 1946, who was proclaimed the first President of the Third Philippine Republic?",
+  o: ["Manuel Roxas", "Diosdado Macapagal", "Emilio Aguinaldo", "Manuel Quezon"],
+  a: 0,
+  r: "Manuel Roxas became the first President of the independent Third Philippine Republic in 1946."
+},
+
+{
+  cat: "Education",
+  q: "Teacher Joanna set 85% accuracy in a test on predicting the kind of weather given five different atmospheric conditions. Mona obtained a score of 82%. This can be interpreted as:",
+  o: ["She is 3% short of the set percentile score", "She did not meet the set standard by 3%", "She obtained an 82% percentile score", "She is higher than 82% of the group"],
+  a: 1,
+  r: "The 85% target is a criterion or standard. Since Mona scored 82%, she fell 3 percentage points below the required standard."
+},
+
+{
+  cat: "Literature",
+  q: "The collection of stories about animals that teach moral lessons is called:",
+  o: ["Aesop's Fables", "The Lion King", "Grimm's Fairy Tales", "One Thousand and One Arabian Nights"],
+  a: 0,
+  r: "Aesop's Fables is a collection of short stories, many featuring animals, that teach moral lessons."
+},
+
+{
+  cat: "Education",
+  q: "You want your students to answer questions at the end of a reading lesson such as 'What did I learn?', 'What still puzzles me?', and 'How did I learn from the lesson?' Which activity are you asking them to do?",
+  o: ["Work on an assignment", "Make a journal entry", "Work on a drill", "Apply what they learned"],
+  a: 1,
+  r: "These reflective questions are appropriate for a journal entry because they encourage learners to reflect on their learning."
+},
+
+{
+  cat: "Psychology",
+  q: "This field studies the human mind and its wide-ranging functions and influences, including emotion, personality, intelligence, memory, perception, cognition, and motivation.",
+  o: ["Ethics", "Morality", "Psychology", "Philosophy"],
+  a: 2,
+  r: "Psychology is the scientific study of behavior and mental processes."
+},
+
+{
+  cat: "Social Science",
+  q: "What can be said about culture from the observation that children absorb habits, values, knowledge, skills, and tastes of groups to which they belong?",
+  o: ["Culture is learned", "Culture is adaptive", "Culture is subject to change", "Culture is compulsory"],
+  a: 0,
+  r: "Culture is learned because people acquire its values, habits, knowledge, and practices through socialization."
+},
+
+{
+  cat: "Science",
+  q: "Which of the following is the lowest rank of coal and is otherwise called brown coal?",
+  o: ["Bituminous", "Lignite", "Anthracite", "Charcoal"],
+  a: 1,
+  r: "Lignite is the lowest rank of coal and is commonly called brown coal."
+},
+
+{
+  cat: "Education",
+  q: "Any restriction or lack of ability to perform an activity within the range considered normal is:",
+  o: ["Exceptionality", "Impairment", "Disability", "Handicap"],
+  a: 2,
+  r: "Disability refers to a restriction or lack of ability to perform an activity in a manner considered normal."
+},
+
+{
+  cat: "Education",
+  q: "On the teacher as a culture catalyst, which shows the need for staying grounded by listening to people who can benefit from change?",
+  o: ["Feedback", "Modeling", "Collaboration", "Engagement"],
+  a: 0,
+  r: "Feedback allows teachers to listen to the people affected by change and understand their needs and responses."
+},
+
+{
+  cat: "Education",
+  q: "What is meant by action research following a cyclical process?",
+  o: ["Problems occur again and again like a cycle", "Teachers form a circle during meetings", "The circle of participants changes from time to time", "Effort is continuing until the problem is resolved"],
+  a: 3,
+  r: "Action research is cyclical because teachers repeatedly plan, act, observe, reflect, and improve until the problem is addressed."
+},
+
+{
+  cat: "Social Science",
+  q: "The statement \"we don't live in a vacuum\" means people are _______.",
+  o: ["Nature-bred", "Biological organisms", "Social beings", "Urban dwellers"],
+  a: 2,
+  r: "People are social beings who interact with and depend on others and their environment."
+},
+
+{
+  cat: "Education",
+  q: "Under the 21st Century Life and Career Skills, which enables a person to respond to the changes of modernity?",
+  o: ["Flexibility and Adaptability", "Social and Cross-Cultural Skills", "Leadership and Responsibility", "Productivity and Accountability"],
+  a: 0,
+  r: "Flexibility and adaptability allow a person to adjust effectively to changing circumstances."
+},
+
+{
+  cat: "Education",
+  q: "Which pillar of learning describes the phrase \"Unity in Diversity\"?",
+  o: ["Learning to live together", "Learning to be", "Learning to know", "Learning to do"],
+  a: 0,
+  r: "Learning to live together emphasizes understanding others, cooperation, respect, and peaceful coexistence despite differences."
+},
+
+{
+  cat: "Education",
+  q: "The teacher who spends more than what is earned, thus becoming vulnerable to loan sharks, lacks ________.",
+  o: ["Financial literacy", "Cyber literacy", "Eco-literacy", "Media literacy"],
+  a: 0,
+  r: "Financial literacy involves understanding how to manage money, budgeting, saving, borrowing, and financial decisions."
+},
+
+{
+  cat: "Values Education",
+  q: "Which runs against the Filipino family value of sacrifice?",
+  o: ["Willingness to forgive", "Delayed satisfaction of desires", "Inability to forgive", "Tolerance of pain and mistake"],
+  a: 2,
+  r: "The inability to forgive conflicts with the Filipino family value of sacrifice and maintaining family relationships."
+},
+
+{
+  cat: "Education",
+  q: "Owing to issues in friendship, family ties, gender rights, and similar concerns, ______ is a value-rich subject that provides a wide opportunity for value formation of learners.",
+  o: ["Filipino", "Social Science", "English", "Islamic Subject"],
+  a: 1,
+  r: "Social Science deals with human relationships, society, culture, rights, and social issues, making it rich in opportunities for value formation."
+},
+
+{
+  cat: "Education",
+  q: "On lifespan perspectives, which message best describes development as a lifelong process?",
+  o: ["We change as the world changes around us", "We continue to learn and flourish in life", "We gain capacity for logical thought in school", "We enhance in socializing as important to maturing"],
+  a: 1,
+  r: "Lifespan development continues throughout life as people continue to learn, adapt, and develop."
+},
+
+{
+  cat: "Philosophy",
+  q: "What method did Socrates use when he taught his students about life and beliefs in ancient Grecian society?",
+  o: ["Art of rhetoric", "Art of questioning", "Art of storytelling", "Art of fallacies"],
+  a: 1,
+  r: "Socrates used questioning and dialogue to encourage critical thinking and examination of beliefs."
+},
+
+{
+  cat: "Filipino",
+  q: "Sa pangungusap na \"Matamang pag-iisipan ng kalahok ang wastong kasagutan,\" ang panaguri ay _____.",
+  o: ["Kasagutan", "Matamang", "Pag-iisipan", "Kalahok"],
+  a: 2,
+  r: "Ang panaguri ay 'pag-iisipan' dahil ito ang nagsasaad ng kilos o ginagawa ng simuno."
+},
+
+{
+  cat: "Education",
+  q: "Which teacher's personal trait is demonstrated by being gender-sensitive and inclusive toward learners?",
+  o: ["Motivation", "Fairness", "Efficiency", "Passion"],
+  a: 1,
+  r: "Fairness means treating learners equitably and respecting their differences, including gender differences."
+},
+
+{
+  cat: "Education",
+  q: "Which of the following is the best relationship between the school and community?",
+  o: ["Community rule", "School supervision", "Partnership", "Teacher-led projects"],
+  a: 2,
+  r: "A partnership allows the school and community to work together toward shared educational and community goals."
+},
+
+{
+  cat: "Education",
+  q: "What is the appropriate teaching-learning strategy to respond to cultural diversity among learners?",
+  o: ["Variety of teaching and assessment methods", "Use of comparative assessment tools", "Group the entire class homogeneously", "One set of teaching-learning methods"],
+  a: 0,
+  r: "Using varied teaching and assessment methods helps accommodate learners from different cultural backgrounds and learning needs."
+},
+
+{
+  cat: "Education",
+  q: "In the total approach to instruction, what component was lacking when Teacher Migz was unable to coordinate and schedule the use of the media laboratory?",
+  o: ["Methods to be used", "Instructional materials", "Facilities or environment", "Objectives and content"],
+  a: 2,
+  r: "The media laboratory is a facility or learning environment, so the missing component was facilities or environment."
+},
+
+{
+  cat: "Education",
+  q: "Which must be present for self-evaluation to succeed?",
+  o: ["Consensus between teacher and student regarding evaluation result", "Teacher's approval of self-evaluation result", "Teacher's monitoring of self-evaluation process", "Student's intrinsic motivation to learn"],
+  a: 3,
+  r: "Successful self-evaluation requires the learner to have intrinsic motivation and willingness to reflect on learning."
+},
+
+{
+  cat: "Education",
+  q: "What level of education is primarily aimed at by the UN's \"Education for All\"?",
+  o: ["Secondary", "Tertiary", "Basic", "Lifelong Learning"],
+  a: 2,
+  r: "Education for All primarily emphasizes access to basic education for everyone."
+},
+
+{
+  cat: "Technology",
+  q: "How will you characterize the use of a PowerPoint presentation to deliver a lesson?",
+  o: ["Technology", "Culture", "Academics", "Machinery"],
+  a: 0,
+  r: "PowerPoint is a technological tool used to support teaching and learning."
+},
+
+{
+  cat: "Education",
+  q: "On learning skills in the 21st century, which focuses on making up new ideas and doing new things?",
+  o: ["Cooperation and collaboration", "Creativity and innovation", "Effective communication", "Critical thinking and problem solving"],
+  a: 1,
+  r: "Creativity and innovation involve generating new ideas and developing new or improved ways of doing things."
+},
+
+{
+  cat: "Culture",
+  q: "The designation for places on Earth that are of outstanding universal value to humanity is called:",
+  o: ["Archaeological Artifact", "Antique Heirloom", "Vintage Collection", "World Heritage"],
+  a: 3,
+  r: "World Heritage sites are places recognized for outstanding universal value to humanity."
+},
+
+{
+  cat: "Education",
+  q: "Among active participation of school officials and teachers in the community, which is not appropriate due to prevailing religious sentiments?",
+  o: ["Literacy assistance for out-of-school children and youths", "Household campaign for healthful practice", "Introducing cooperative thrift practices", "Promoting contraceptives for planned parenthood"],
+  a: 3,
+  r: "The source question identifies promoting contraceptives for planned parenthood as the inappropriate activity in the stated context."
+},
+
+{
+  cat: "Philosophy",
+  q: "What educational philosophy should a teacher emphasize if he wants his students to develop self-responsibility and accountability?",
+  o: ["Utilitarianist", "Existentialist", "Essentialist", "Constructivist"],
+  a: 1,
+  r: "Existentialism emphasizes personal freedom, responsibility, choice, and accountability."
+},
+
+{
+  cat: "Assessment",
+  q: "When the distribution is skewed to the right, the test is said to be:",
+  o: ["Very difficult", "Very easy", "Average/moderately difficult", "Not too easy nor difficult"],
+  a: 1,
+  r: "A right-skewed score distribution generally indicates that many students obtained high scores, suggesting an easy test."
+},
+
+{
+  cat: "Assessment",
+  q: "When computing for the final grade in a learning area, K to 12 utilizes:",
+  o: ["Cumulative", "Averaging", "Norm-referenced grading", "Zero-based grading"],
+  a: 1,
+  r: "The K to 12 grading system computes grades using weighted components and averaging procedures."
+},
+
+{
+  cat: "Philosophy",
+  q: "The proponent of Confucian philosophy is:",
+  o: ["Kung Fu Tzu", "Lao-Tzu", "Buddha", "Siddhartha Gautama"],
+  a: 0,
+  r: "Confucianism was founded by Confucius, whose Chinese name is Kong Fuzi or Kung Fu Tzu."
+},
+
+{
+  cat: "Literature",
+  q: "\"Dying without seeing the dawn\" referred to the regret of not seeing the liberation of the Philippines, which was expressed by the dying character:",
+  o: ["Elias", "Basilio", "Isagani", "Fr. Damaso"],
+  a: 0,
+  r: "Elias expressed his desire to see the Philippines liberated before he died in Noli Me Tangere."
+},
+
+{
+  cat: "Philippine Government",
+  q: "The law that gives more autonomy to towns, cities, and provinces is known as:",
+  o: ["Barangay Law", "Local Government Code", "Civil Service Law", "Cooperative Law"],
+  a: 1,
+  r: "The Local Government Code provides local government units with greater autonomy and decentralizes certain powers."
+},
+
+{
+  cat: "English",
+  q: "Our family has a strong sense of _______.",
+  o: ["All together", "Altogether", "Al together", "Togetherness"],
+  a: 3,
+  r: "Togetherness means a feeling of closeness, unity, or strong family connection."
+},
+
+{
+  cat: "Education",
+  q: "On periods of development, what feature characterizes the child in the infancy stage?",
+  o: ["Social attachment", "Well-established language", "Team play", "Puberty"],
+  a: 0,
+  r: "Infancy is characterized by strong attachment and early social bonding with caregivers."
+},
+
+{
+  cat: "Education",
+  q: "Teacher Jenny believes that her students do not need to know the learning outcomes of her lessons. She gives activities without telling them what they are supposed to learn. What principle of learning does she violate?",
+  o: ["Learning is the discovery of the personal meaning of ideas", "Learning is an active process", "Learning is a cooperative and collaborative process", "Effective learning begins with setting clear expectations and learning outcomes"],
+  a: 3,
+  r: "Effective learning begins with clear expectations and learning outcomes so learners understand what they are expected to achieve."
+},
+
+{
+  cat: "Education",
+  q: "Teacher C asks students to break down, critically examine, and investigate a concept or problem. What kind of learning does this demonstrate?",
+  o: ["Synthesis", "Application", "Evaluation", "Analysis"],
+  a: 3,
+  r: "Analysis involves breaking information or concepts into parts and examining how those parts relate."
+},
 {cat:"General Education",source:"Uploaded LET Review",q:"What is the principle enshrined in the Philippine Constitution that is not found in any other constitution in the world?",o:["Brotherhood","Freedom","Peace","Love"],a:3,r:"The supplied review material identifies Love as the answer. The item is presented here as source-based practice."},
 {cat:"Professional Education",source:"Uploaded LET Review",q:"In a longitudinal experimental study, twins raised in different environments met again at age 18 and showed different behavior. Which theory supports the finding?",o:["Environment shapes the kind of character of a person","Society carries its function of reshaping a person's habit through enculturation","Parents should have the responsibility of molding their children on the right values and actions","Heredity makes up a person"],a:0,r:"The supplied material marks the environment-based explanation as correct: differing environments can influence behavior and development."},
 {cat:"Professional Education",source:"Uploaded LET Review",q:"It is known as a social discipline. The educational system which emphasized social etiquette is called what?",o:["Saracenic education","Chivalric education","Platonic Education","Confucian Education"],a:1,r:"The supplied review marks Chivalric education. The material also lists Saracenic with science and Confucian with moral values."},
