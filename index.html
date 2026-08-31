@@ -493,7 +493,6 @@ function openCategory(cat){
   $("catDone").textContent=done;
   $("catAcc").textContent=(done?Math.round(correct/done*100):0)+"%";
   $("catBar").style.width=Math.min(100,done/list.length*100)+"%";
-  $("categoryPreview").innerHTML=list.slice(0,8).map((q,i)=>`<div class="rpg-card list-item"><div><strong>${i+1}. ${esc(q.q)}</strong><small>${esc(q.source||"Practice")}</small></div><b>QUEST</b></div>`).join("");
   showScreen("category");
 }
 function updateDashboard(){
